@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hajas.dev</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/8690abaf2b.js" crossorigin="anonymous"></script>
+       <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&display=swap" rel="stylesheet">
+
+   
+</head>
+<body  class="bg-gradient-to-r from-black via-gray-900 to-gray-900 ">
+    <nav class="p-4 bg-gradient-to-r shadow md:flex md:items-center md:justify-between">
+        <div class="flex justify-between items-center ">
+          <span class="text-2xl  cursor-pointer text-white " style="font-family: 'Cairo', sans-serif;"> 
+            <img class=" h-16 inline drop-shadow-md "
+              src="asset/v.png">
+            
+          </span>
+          <form >   
+      
+            <div class="relative  pr-4 ">
+                <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                    <svg aria-hidden="true" class="w-9 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+                </div>
+                <input type="text" id="simple-search" class="bg-inherit border border-[#be9e79] text-white text-sm  rounded-full focus:ring-yellow-600 focus:border-yellow-600 block w-full h-10 pl-10 p-2.5   placeholder-[#be9e79]  " style="font-family: 'Cairo', sans-serif;" placeholder="ابحث هنا " required>
+            </div>
+            
+        </form>
+    
+          <span class="  text-3xl cursor-pointer mx-2 md:hidden block ">
+            <ion-icon name="menu" onclick="Menu(this)" class="text-[#be9e79]"></ion-icon>
+          </span>
+          
+        </div>
+    
+        <ul class="text-white md:flex md:items-center z-[20] md:z-auto md:static absolute  w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 " style="font-family: 'Cairo', sans-serif;">
+          <li class="mx-4 my-6 md:my-0">
+
+            <a href="#" class="text-l  hover:text-[#be9e79]  duration-500" >القائمة</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="text-l   hover:text-[#be9e79] duration-500">الاقسام</a>
+          </li>
+   
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="text-l   hover:text-[#be9e79] duration-500">تواصل معنا</a>
+          </li>
+
+          <button class="bg-transparent	 text-[#be9e79]   duration-500 px-6 py-2 mx-4 border  border-[#be9e79] hover:bg-[#be9e79]  hover:text-black rounded-full animate-pulse " style="font-family: 'Cairo', sans-serif;">
+            تسجيل الدخول
+          </button>
+
+        </ul>
+      </nav>
+      
+      <div class="    md:grid grid-cols-1 xl:grid grid-cols-2 space-x-4 xl:pr-32 2xl: pr-54">  
+        <div style="  font-family: 'Cairo', sans-serif; " class="pt-14 pr-16 " >
+          
+            <div class="  md:pt-20 md:pb-6 md:text-4xl text-xl bg-clip-text text-transparent bg-gradient-to-r from-white to-[#be9e79]" ><p class="leading-loose">موقع تسوق الكتروني بي كلشي تحتاجة...تسوق الي يعجبك وبراحتك وخلينا نوصلة الك لباب بيتك
+      
+            </p>
+          </div>
+          <button class="bg-[#be9e79]	 text-white  duration-500 px-6 py-2 mx-4 border  border-[#be9e79] hover:bg-[#be9e79]  hover:text-black rounded-full  " style="font-family: 'Cairo', sans-serif;">
+          ابدء بالتسوق الان 
+          </button>
+          
+        </div>
+        
+        <img src="asset/bg.png" >
+
+    
+   </div>
+   
+  <div class="px-4 py-14 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20" style="font-family: 'Cairo', sans-serif;">
+      <div class="overflow-hidden transition-shadow duration-300 bg-inherit rounded shadow-sm">
+    <div class="grid gap-8 lg:grid-cols-4 sm:grid-cols-2  lg:max-w-full md:grid-cols-2">
+      <div class="overflow-hidden transition-shadow duration-300 bg-gray-100 rounded shadow-sm">
+        <img src="asset/IMG_0829.JPG" class="object-cover w-full h-64" alt="" />
+        <div class="p-5 border border-t-0">
+          
+          <a href="" aria-label="Category" class="text-blue-900 p-4 inline-block mb-3 text-xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">طباعه الصور على السجاد</a>
+          <p class="mb-2 text-yellow-700">
+            Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque.
+          </p>
+          <a href="" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-blue-400 hover:text-deep-purple-800 pt-4">المزيد </a>
+        </div>
+      </div>
+      <div class="overflow-hidden transition-shadow duration-300 bg-gray-100 rounded shadow-sm">
+        <img src="asset/IMG_0826.JPG" class="object-cover w-full h-64" alt="" />
+        <div class="p-5 border border-t-0">
+         
+          <a href="" aria-label="Category"  class="text-blue-900 p-4 inline-block mb-3 text-xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">طباعه الصور على حافظه الموبايل  </a>
+          <p class="mb-2 text-yellow-700">
+            Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque.
+          </p>
+          <a href="" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-blue-400 hover:text-deep-purple-800 pt-4">المزيد </a>
+        </div>
+      </div>
+      <div class="overflow-hidden transition-shadow duration-300 bg-gray-100 rounded shadow-sm">
+        <img src="asset/IMG_0827.JPG" class="object-cover w-full h-64" alt="" />
+        <div class="p-5 border border-t-0">
+          
+          <a href="" aria-label="Category"  class="text-blue-900 p-4 inline-block mb-3 text-xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">طباعه الصور على الاكواب</a>
+          <p class="mb-2 text-yellow-700">
+            Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque.
+          </p>
+          <a href="" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-blue-400 hover:text-deep-purple-800 pt-4">المزيد </a>
+        </div>
+      </div>
+      <div class="overflow-hidden transition-shadow duration-300 bg-gray-100 rounded shadow-sm">
+        <img src="asset/IMG_0828.JPG" class="object-cover w-full h-64" alt="" />
+        <div class="p-5 border border-t-0">
+         
+          <a href="" aria-label="Category"  class="text-blue-900 p-4 inline-block mb-3 text-xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"> طباعه الصور على الساعات </a>
+          <p class="mb-2 text-yellow-700">
+            Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque.
+          </p>
+          <a href="" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-blue-400 hover:text-deep-purple-800 pt-4">المزيد </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="  md:pt-8   xl:pl-50 2xl:pl-72 md:grid grid-cols-1 xl:grid grid-cols-2 space-x-4 xl:pr-4 xl:pl-4">  
+  <div class="  md:pt-2 md:pr-16 xl:pr-16">
+  <img src="asset/cover.jpg" >
+</div>
+<div style="  font-family: 'Cairo', sans-serif; " class="pt-24 pr-4 " >
+  <h1 class="md:text-5xl text-5xl leading-tight text-[#be9e79]">للتواصل مع فيرزاتشي</h1>
+  <div class="md:pt-4  pt-6 md:pb-6 text-white text-2xl" ><p>
+
+  <br class=""> :يرجى مراسلة المواقع التاليه 
+    <div class="text-2xl"><a href="" class="text-red-500"> versaci.com</a> <br>
+    <a href="" class=" text-red-500">07845500777</a></div>
+    </p>
+</div>
+</div>
+</div>
+<div class="md:text-6xl  md:pt-8 text-5xl  leading-tight pt-8 md:pr-20 xl:text-7xl pr-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-[#be9e79] " style="font-family: 'Cairo', sans-serif;"> 
+  الاقسام  :
+</div>
+<div class="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8" style=" font-family: 'Cairo', sans-serif;">
+  <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+  </div>
+  <div class="grid max-w-md gap-10 row-gap-8 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">
+    <div class="flex flex-col transition duration-300 bg-transparent rounded shadow-sm hover:shadow">
+      <div class="relative w-full h-48">
+        <img src="asset/grad.JPG" class=" w-full h-full rounded-t" alt="Plan" />
+      </div>
+      <div class="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
+        <div>
+          <div class="text-xl  text-white font-semibold">مستلزمات التخرج </div>
+          <p class="text-sm text-white pt-2">
+            كافه متلزمات التخرج ،ارواب،قبعات،الخ
+          </p>
+        </div>
+        <a
+          href=""
+          class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide bg-[#be9e79] text-blue-900 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+        >
+        اذهب
+        </a>
+      </div>
+    </div>
+    <div class="flex flex-col transition duration-300 bg-transparent rounded shadow-sm hover:shadow">
+      <div class="relative w-full h-48">
+        <img src="asset/watch.JPG" class=" w-full h-full rounded-t" alt="Plan" />
+      </div>
+      <div class="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
+        <div>
+          <div class="text-xl  text-white font-semibold ">ساعات </div>
+          <p class="text-sm text-white pt-2">
+يتوفر كافه انواع الساعات والهدايا       </p>
+          
+        </div>
+        <a
+          href=""
+          class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide bg-[#be9e79] text-blue-900 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+        >
+          اذهب
+        </a>
+      </div>
+    </div>
+    <div class="flex flex-col transition duration-300 bg-transparent rounded shadow-sm hover:shadow">
+      <div class="relative w-full h-48">
+        <img src="asset/clothes.JPG" class=" w-full h-full rounded-t" alt="Plan" />
+      </div>
+      <div class="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
+        <div>
+          <div class="text-xl text-white font-semibold">الطباعه على الملابس </div>
+          <p class="text-sm text-white pt-4">
+            الطباعه على جميع انواع الملابس 
+          </p>
+        </div>
+        <a
+          href=""
+          class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide  bg-[#be9e79] text-blue-900 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+        >
+         اذهب
+        </a>
+      </div> 
+    </div>
+  </div>
+</div>
+
+  
+  <div class="px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 " style=" font-family: 'Cairo', sans-serif;">
+  <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+  </div>
+  <div class="grid max-w-md gap-10 row-gap-8 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">
+    <div class="flex flex-col transition duration-300 bg-transparent rounded shadow-sm hover:shadow">
+      <div class="relative w-full h-48">
+        <img src="asset/cups.JPG" class=" w-full h-full rounded-t" alt="Plan" />
+      </div>
+      <div class="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
+        <div>
+          <div class="text-xl text-white font-semibold">قسم الطباعه الحرارية </div>
+          <p class="text-sm text-white pt-2">
+            الطباعه على الاكواب والزجاجيات 
+          </p>
+        </div>
+        <a
+          href=""
+          class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide bg-[#be9e79] text-blue-900 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+        >
+        اذهب
+        </a>
+      </div>
+    </div>
+    <div class="flex flex-col transition duration-300 bg-transparent rounded shadow-sm hover:shadow">
+      <div class="relative w-full h-48">
+        <img src="asset/phonecover.JPG" class=" w-full h-full rounded-t" alt="Plan" />
+      </div>
+      <div class="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
+        <div>
+          <div class="text-xl text-white font-semibold "> حافضات الموبايل </div>
+          <p class="text-sm text-white pt-2">
+طباعه كل انواع الصور على الحافضات          </p>
+          
+        </div>
+        <a
+          href=""
+          class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide bg-[#be9e79] text-blue-900 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+        >
+          اذهب
+        </a>
+      </div>
+    </div>
+    <div class="flex flex-col transition duration-300 bg-transparent rounded shadow-sm hover:shadow">
+      <div class="relative w-full h-48">
+        <img src="asset/gift.JPG" class=" w-full h-full rounded-t" alt="Plan" />
+      </div>
+      <div class="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
+        <div>
+          <div class="text-xl text-white font-semibold">قسم الهدايا  </div>
+          <p class="text-sm text-white pt-2">
+            الطباعه على كافه انواع الهدايا
+          </p>
+        </div>
+        <a
+          href=""
+          class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide  bg-[#be9e79] text-blue-900 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+        >
+         اذهب
+        </a>
+      </div> 
+    </div>
+  </div>
+
+</div>
+<div class=" space-x-8">
+<div class=" text-2xl py-8 text-gray-700  space-x-4  space-y-8 text-center md:text-blue-500 "><p class=" bg-clip-text text-transparent bg-gradient-to-r from-white to-[#be9e79] pb-4" style="font-family: 'Cairo', sans-serif;">تواصل معنا</p>
+  <a href="https://instagram.com/pt33z?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram  hover:text-white  bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 " ></i></a>
+  <a href="https://www.tiktok.com/@pt66z?_t=8VPIcRhDU0c&_r=1"><i class="fa-brands fa-tiktok hover:text-white   bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 "></i></a>
+  <a href="Https://api.whatsapp.com/send?phone=+9647835500777"><i class="fa-brands fa-whatsapp hover:text-white  bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 "></i></a>
+  <a href="https://www.facebook.com/%D9%81%D9%8A%D8%B1%D8%B2%D8%A7%D8%AA%D8%B4%D9%8A-%D9%84%D9%84%D9%87%D8%AF%D8%A7%D9%8A%D8%A7-102858859006152/"><i class="fa-brands fa-facebook hover:text-white  bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 "></i></a>
+
+</div>
+</div>
+
+      <script>
+        function Menu(e){
+          let list = document.querySelector('ul');
+          e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100'), list.classList.add('bg-gradient-to-r from-black via-gray-900 to-gray-900')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'), list.classList.remove('bg-gradient-to-r from-black via-gray-900 to-gray-900'))
+        }
+ </script>
+</body>
+</html> 
